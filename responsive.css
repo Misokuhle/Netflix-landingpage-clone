@@ -1,0 +1,60 @@
+@media (max-width: 768px) and (min-width: 480px) 
+{
+    .test{
+        width: 100%;
+        display: block;
+        
+    }
+    
+    .card-subtitle{
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 1rem 0;
+    }
+    .info-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .info {
+        text-align: center;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+    .navbar {
+      position: relative;
+      z-index: 1;
+    }
+  
+    .navbar > svg {
+      height: 24px;
+      width: auto; 
+    }
+  
+    .navbar > a {
+      padding: 5px 10px; 
+    }
+  
+    .banner-container {
+      padding: 20px; 
+      flex-direction: column;
+      text-align: center;
+    }
+    
+  
+    .card-title {
+      font-size: 32px;
+    }
+  
+    .card-subtitle {
+      font-size: 1.2rem;
+        font-weight: 400;
+        margin: 1rem 0;
+    }
+       form input{
+        width: 100%;
+       }
+
+       form button{
+        width: 100%;
+       }
+    }
